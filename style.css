@@ -1,0 +1,50 @@
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cart{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border: 2px solid rgb(49, 46, 46);
+    margin: 15px;
+}
+.info{
+    width: 60%;
+}
+.photo{
+    width: 40%;
+    overflow: hidden;
+
+}
+.title{
+      justify-content: center;
+      text-align: center;
+      font-size: larger;
+      
+}
+.card-text{
+    padding-left: 6px;
+}
+.btn{
+    padding-left: 6px;
+}
+.imgg{
+    height: 90%;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+@media(max-width:600px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart{
+        margin-top: 10px;
+        height: 300px;
+        width: 100%;
+    }
+}
