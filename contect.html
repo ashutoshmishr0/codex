@@ -134,6 +134,16 @@
      
     </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-       <script src="main.js"></script>
+       <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbz8Zx1W5LAzBxmhvpnqMO6SruPcuW2NAAlLcxjMB28KuUTAte5l_93r6Jb8gj2qsHy-/exec'
+const form = document.forms['google-sheet']
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => alert("Thanks for Contacting me..! Your message has been received..."))
+        .catch(error => console.error('Error!', error.message))
+})e"
+         </script>
 </body>
   </html>
