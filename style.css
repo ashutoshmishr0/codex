@@ -22,7 +22,7 @@
 	display: flex;
 	height: 200px;
 	width: 300px;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-bottom: 20px;
 }
 #css{
@@ -101,7 +101,14 @@ span:hover{
 	padding: auto;
 	overflow: hidden;
 }
-
+ .container2{
+    display: flex;
+	padding: 5px;
+	background-color: rgb(233, 252, 252);
+ }
+ .intro{
+	width: 50%;
+ }
 
 
 @media (max-width: 500px) {
@@ -132,5 +139,11 @@ span:hover{
 	}
 	.slider{
 		height: 150px;
+	}
+	.container2{
+		flex-direction: column;
+	}
+	.intro{
+		width: 100%;
 	}
 }
