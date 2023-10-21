@@ -147,6 +147,8 @@ span:hover{
 		height: 150px;
 		overflow: hidden;
 	}
+	.pic{
+		height: 150px;
 	.container2{
 		flex-direction: column;
 	}
