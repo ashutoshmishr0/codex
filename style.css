@@ -11,7 +11,7 @@
 .cart {
 	height: 300px;
 	width: 500px;
-	background-color: antiquewhite;
+	background: linear-gradient(245.59deg , #4d9559 0%, #38703d 28.53%, #133917 75.52%);
 	margin-left: 50px;
 	display: flex;
 	border: 1px solid rgb(32, 31, 31);
@@ -72,27 +72,33 @@ span:hover{
 }
 .info {
 	width: 60%;
-	color: rgb(12, 12, 12);
+	color: rgb(252, 251, 251);
 	background-color: (115, 119, 181);;
 	border-radius: 10px 0px 0px 10px;
 }
+
 .photo {
 	background-color: black;
 	width: 40%;
 	overflow: hidden;
 	border-radius:0px 10px 10px 0px;
+	-webkit-mask-image: url(./pic.png);
+	-webkit-mask-size: contain;
 }
 .title {
 	justify-content: center;
+	color: rgb(129, 235, 126);
 	text-align: center;
-	font-size: larger;
+	font-size: xx-large;
 	border-radius: 10px;
 }
 .card-text {
-	padding-left: 6px;
+	padding-left: 10px;
 }
-.btn {
-	padding-left: 6px;
+.port-button{
+	padding-left: 15px;
+	margin-left: 10px;
+	background-color: #133917;
 }
 .imgg {
 	height: 100%;
@@ -104,7 +110,6 @@ span:hover{
  .container2{
     display: flex;
 	padding: 5px;
-	 box-shadow: 5px 5px 5px rgb(134, 129, 129);
 	background-color: rgb(233, 252, 252);
  }
  .intro{
@@ -140,8 +145,6 @@ span:hover{
 	}
 	.slider{
 		height: 150px;
-		width: 100%;
-		overflow: hidden;
 	}
 	.container2{
 		flex-direction: column;
