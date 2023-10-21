@@ -104,6 +104,7 @@ span:hover{
  .container2{
     display: flex;
 	padding: 5px;
+	 box-shadow: 5px 5px 5px rgb(134, 129, 129);
 	background-color: rgb(233, 252, 252);
  }
  .intro{
