@@ -141,6 +141,7 @@ span:hover{
 	.slider{
 		height: 150px;
 		width: 100%;
+		overflow: hidden;
 	}
 	.container2{
 		flex-direction: column;
