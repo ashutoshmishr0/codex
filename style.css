@@ -18,16 +18,69 @@
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px rgb(134, 129, 129);
 }
+.container-project{
+	display: flex;
+	height: 200px;
+	width: 300px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#css{
+	height: 200px;
+	width: 300px;
+	color: rgb(0, 0, 0);
+	border: 1px solid rgb(218, 212, 212);
+	margin: 5px;
+	background-color: rgb(255, 255, 255);
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#css:hover{
+	background-color:rgb(133, 131, 131);
+	color: white;
+	cursor: pointer;
+	
+}
+#js{
+	height: 200px;
+	width: 300px;
+	margin: 5px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(218, 212, 212);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heding{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	padding-left: 15px;
+	
+}
+.p1{
+	padding-left: 10px;
+}
+.s1{
+	color: rgb(156, 173, 0);
+}
+span:hover{
+	color:rgb(53, 186, 198) ;
+}
+#js:hover{
+	background-color:rgb(133, 131, 131);
+	color: white;
+	cursor: pointer;
+}
 .info {
 	width: 60%;
-	background-color: rgb(202, 238, 238);
-	border-radius: 10px;
+	color: rgb(12, 12, 12);
+	background-color: (115, 119, 181);;
+	border-radius: 10px 0px 0px 10px;
 }
 .photo {
 	background-color: black;
 	width: 40%;
 	overflow: hidden;
-	border-radius: 10px;
+	border-radius:0px 10px 10px 0px;
 }
 .title {
 	justify-content: center;
@@ -76,5 +129,8 @@
 	.photo {
 		height: 100%;
 		width: 60%;
+	}
+	.slider{
+		height: 150px;
 	}
 }
